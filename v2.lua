@@ -117,7 +117,7 @@ do
                                 TextLabel2.Size = UDim2.new(1, -44, 0, 36)
                                 TextLabel2.Position = UDim2.new(0, 12, 0, 0)
                                 TextLabel2.BackgroundTransparency = 1
-                                TextLabel2.Text = 'RuzHub  \u{2014}  ' .. p4
+                                TextLabel2.Text = 'CandyZone  \u{2014}  ' .. p4
                                 TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 TextLabel2.Font = Enum.Font.GothamBold
                                 TextLabel2.TextSize = 14
@@ -769,10 +769,10 @@ do
                             function v68()
                                 for _, player in ipairs(u67:GetPlayers())do
                                     if player.Character then
-                                        local RuzHub_ESP = player.Character:FindFirstChild('RuzHub_ESP')
+                                        local CandyZone_ESP = player.Character:FindFirstChild('CandyZone_ESP')
 
-                                        if RuzHub_ESP then
-                                            RuzHub_ESP:Destroy()
+                                        if CandyZone_ESP then
+                                            CandyZone_ESP:Destroy()
                                         end
                                     end
                                 end
@@ -813,9 +813,9 @@ do
                             local u75 = LocalPlayer
 
                             local function u76(p21, p22)
-                                local v451 = p21:FindFirstChild('RuzHub_ESP') or Instance.new('Highlight')
+                                local v451 = p21:FindFirstChild('CandyZone_ESP') or Instance.new('Highlight')
 
-                                v451.Name = 'RuzHub_ESP'
+                                v451.Name = 'CandyZone_ESP'
                                 v451.Parent = p21
                                 v451.FillColor = p22
                                 v451.FillTransparency = 0.7
@@ -862,10 +862,10 @@ do
                                                         v872 = false
                                                     end
                                                     if not v872 then
-                                                        local RuzHub_ESP = player.Character:FindFirstChild('RuzHub_ESP')
+                                                        local CandyZone_ESP = player.Character:FindFirstChild('CandyZone_ESP')
 
-                                                        if RuzHub_ESP then
-                                                            RuzHub_ESP:Destroy()
+                                                        if CandyZone_ESP then
+                                                            CandyZone_ESP:Destroy()
                                                         end
                                                     else
                                                         u76(player.Character, u77[v871])
@@ -1761,7 +1761,7 @@ do
 
                         local Sky = Instance.new('Sky', u146)
 
-                        Sky.Name = 'RuzHub_CustomSky'
+                        Sky.Name = 'CandyZone_CustomSky'
 
                         local v625 = 'rbxassetid://' .. tostring(p27)
 
@@ -2216,15 +2216,15 @@ do
             u211 = t17
             u212 = v21
 
-            local RuzHub_BtnLayer = game.CoreGui:FindFirstChild('RuzHub_BtnLayer')
+            local CandyZone_BtnLayer = game.CoreGui:FindFirstChild('CandyZone_BtnLayer')
 
-            if RuzHub_BtnLayer then
-                RuzHub_BtnLayer:Destroy()
+            if CandyZone_BtnLayer then
+                CandyZone_BtnLayer:Destroy()
             end
 
             local ScreenGui = Instance.new('ScreenGui', game.CoreGui)
 
-            ScreenGui.Name = 'RuzHub_BtnLayer'
+            ScreenGui.Name = 'CandyZone_BtnLayer'
             ScreenGui.ResetOnSpawn = false
             ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
             ScreenGui.DisplayOrder = 10
@@ -2913,7 +2913,7 @@ do
         end
     end)
     v18:Popup({
-        Title = 'RuzHub Mmv And Mm2',
+        Title = 'CandyZone Mmv And Mm2',
         Icon = 'sparkles',
         Content = 'v7.3 loaded!\nBombs and Shoot auto-loaded.\nOpen menu to configure everything.',
         Buttons = {
@@ -3135,7 +3135,7 @@ v301:Button({
             TextLabel.Size = UDim2.new(1, -44, 0, 38)
             TextLabel.Position = UDim2.new(0, 12, 0, 0)
             TextLabel.BackgroundTransparency = 1
-            TextLabel.Text = 'RuzHub  \u{2014}  Skybox Picker'
+            TextLabel.Text = 'CandyZone  \u{2014}  Skybox Picker'
             TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             TextLabel.Font = Enum.Font.GothamBold
             TextLabel.TextSize = 14
@@ -3474,7 +3474,7 @@ v301:Button({
             TextLabel.Size = UDim2.new(1, -44, 0, 38)
             TextLabel.Position = UDim2.new(0, 12, 0, 0)
             TextLabel.BackgroundTransparency = 1
-            TextLabel.Text = 'RuzHub  \u{2014}  Cursor Picker'
+            TextLabel.Text = 'CandyZone  \u{2014}  Cursor Picker'
             TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             TextLabel.Font = Enum.Font.GothamBold
             TextLabel.TextSize = 14
@@ -4191,8 +4191,8 @@ v239(true)
 v244(true)
 v18:Notify({
     Title = 'CandyZone',
-    Content = tostring('RuzHub v7.3 ready!'),
+    Content = tostring('CandyZone Ready!'),
     Duration = 3,
     Icon = 'bell',
 })
-print('[RuzHub] v7.3 loaded.')
+print('[CandyZone] v1.0 loaded.')
