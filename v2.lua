@@ -36,8 +36,7 @@ do
                     u17 = true
                     v18 = loadstring(game:HttpGet('https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/dist/main.lua'))()
 
-                    -- Изменено на Violet
-                    v18:SetTheme('Violet')
+                    v18:SetTheme('Crimson')
 
                     do
                         local _ = v18
@@ -109,8 +108,7 @@ do
 
                                 local UIStroke = Instance.new('UIStroke', Frame)
 
-                                -- Изменено на фиолетовый
-                                UIStroke.Color = Color3.fromRGB(138, 43, 226)
+                                UIStroke.Color = Color3.fromRGB(220, 38, 38)
                                 UIStroke.Thickness = 1.5
                                 UIStroke.Transparency = 0.15
 
@@ -129,8 +127,7 @@ do
 
                                 TextButton.Size = UDim2.new(0, 28, 0, 28)
                                 TextButton.Position = UDim2.new(1, -34, 0, 4)
-                                -- Изменено на фиолетовый
-                                TextButton.BackgroundColor3 = Color3.fromRGB(120, 30, 200)
+                                TextButton.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
                                 TextButton.Text = 'X'
                                 TextButton.TextColor3 = Color3.new(1, 1, 1)
                                 TextButton.Font = Enum.Font.GothamBold
@@ -167,8 +164,7 @@ do
                                 local Frame3 = Instance.new('Frame', Frame2)
 
                                 Frame3.Size = UDim2.new(v390, 0, 1, 0)
-                                -- Изменено на фиолетовый
-                                Frame3.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+                                Frame3.BackgroundColor3 = Color3.fromRGB(220, 38, 38)
                                 Frame3.BorderSizePixel = 0
                                 Instance.new('UICorner', Frame3).CornerRadius = UDim.new(1, 0)
 
@@ -255,8 +251,7 @@ do
                                 local TextButton3 = Instance.new('TextButton', Frame4)
 
                                 TextButton3.Size = UDim2.new(0.48, 0, 1, 0)
-                                -- Изменено на фиолетовый
-                                TextButton3.BackgroundColor3 = Color3.fromRGB(120, 30, 200)
+                                TextButton3.BackgroundColor3 = Color3.fromRGB(20, 160, 20)
                                 TextButton3.Text = 'Apply'
                                 TextButton3.TextColor3 = Color3.new(1, 1, 1)
                                 TextButton3.Font = Enum.Font.GothamBold
@@ -284,8 +279,7 @@ do
 
                                 TextButton4.Size = UDim2.new(0.48, 0, 1, 0)
                                 TextButton4.Position = UDim2.new(0.52, 0, 0, 0)
-                                -- Изменено на фиолетовый
-                                TextButton4.BackgroundColor3 = Color3.fromRGB(100, 20, 170)
+                                TextButton4.BackgroundColor3 = Color3.fromRGB(160, 20, 20)
                                 TextButton4.Text = 'Reset'
                                 TextButton4.TextColor3 = Color3.new(1, 1, 1)
                                 TextButton4.Font = Enum.Font.GothamBold
@@ -2483,7 +2477,7 @@ do
 
         function u252(p48)
             if p48 then
-                u246('ESP', u247.ESP, u248, Color3.fromRGB(138, 43, 226), 'ESP\nOFF')
+                u246('ESP', u247.ESP, u248, Color3.fromRGB(10, 140, 30), 'ESP\nOFF')
                 u245.ESP.btn.MouseButton1Click:Connect(function()
                     local v926 = not u61
 
@@ -2839,7 +2833,7 @@ do
             u295.Shoot.lbl.Text = v779 and 'THROW' or 'SHOOT'
         end
         if u295.ESP then
-            local v780 = u61 and Color3.fromRGB(50, 220, 80) or Color3.fromRGB(138, 43, 226)
+            local v780 = u61 and Color3.fromRGB(50, 220, 80) or Color3.fromRGB(10, 140, 30)
 
             u295.ESP.lbl.Text = u61 and 'ESP\nON' or 'ESP\nOFF'
             u295.ESP.lbl.TextColor3 = v780
@@ -2938,7 +2932,7 @@ do
         Author = 'Mmv And Mm2',
         Folder = 'CandyZone',
         Size = UDim2.fromOffset(700, 550),
-        Theme = 'Violet', -- Изменено на Violet
+        Theme = 'Crimson',
         Acrylic = false,
         HideSearchBar = false,
         OpenButton = {
@@ -2947,7 +2941,7 @@ do
             StrokeThickness = 2,
             Enabled = true,
             OnlyMobile = false,
-            Color = ColorSequence.new(Color3.fromHex('#8A2BE2'), Color3.fromHex('#6A0DAD')), -- Фиолетовый
+            Color = ColorSequence.new(Color3.fromHex('#dc2626'), Color3.fromHex('#991b1b')),
         },
     }):Section({
         Title = 'CandyZone',
@@ -3133,8 +3127,7 @@ v301:Button({
 
             local UIStroke = Instance.new('UIStroke', Frame)
 
-            -- Изменено на фиолетовый
-            UIStroke.Color = Color3.fromRGB(138, 43, 226)
+            UIStroke.Color = Color3.fromRGB(220, 38, 38)
             UIStroke.Thickness = 1.5
 
             local TextLabel = Instance.new('TextLabel', Frame)
@@ -3152,8 +3145,7 @@ v301:Button({
 
             TextButton.Size = UDim2.new(0, 28, 0, 28)
             TextButton.Position = UDim2.new(1, -34, 0, 5)
-            -- Изменено на фиолетовый
-            TextButton.BackgroundColor3 = Color3.fromRGB(120, 30, 200)
+            TextButton.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
             TextButton.Text = 'X'
             TextButton.TextColor3 = Color3.new(1, 1, 1)
             TextButton.Font = Enum.Font.GothamBold
@@ -3320,10 +3312,9 @@ v301:Button({
                     end
 
                     u653.Thickness = 2
-                    -- Изменено на фиолетовый
-                    u653.Color = Color3.fromRGB(138, 43, 226)
-                    u654.BackgroundColor3 = Color3.fromRGB(50, 15, 50)
-                    u655.TextColor3 = Color3.fromRGB(180, 80, 255)
+                    u653.Color = Color3.fromRGB(220, 38, 38)
+                    u654.BackgroundColor3 = Color3.fromRGB(50, 15, 15)
+                    u655.TextColor3 = Color3.fromRGB(255, 80, 80)
                 end)
             end
 
@@ -3475,8 +3466,7 @@ v301:Button({
 
             local UIStroke = Instance.new('UIStroke', Frame)
 
-            -- Изменено на фиолетовый
-            UIStroke.Color = Color3.fromRGB(138, 43, 226)
+            UIStroke.Color = Color3.fromRGB(220, 38, 38)
             UIStroke.Thickness = 1.5
 
             local TextLabel = Instance.new('TextLabel', Frame)
@@ -3494,8 +3484,7 @@ v301:Button({
 
             TextButton.Size = UDim2.new(0, 28, 0, 28)
             TextButton.Position = UDim2.new(1, -34, 0, 5)
-            -- Изменено на фиолетовый
-            TextButton.BackgroundColor3 = Color3.fromRGB(120, 30, 200)
+            TextButton.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
             TextButton.Text = 'X'
             TextButton.TextColor3 = Color3.new(1, 1, 1)
             TextButton.Font = Enum.Font.GothamBold
@@ -3566,7 +3555,7 @@ v301:Button({
 
             TextButton7.Size = UDim2.new(0, 54, 0, 26)
             TextButton7.Position = UDim2.new(1, -54, 0.5, -13)
-            TextButton7.BackgroundColor3 = u199 and Color3.fromRGB(120, 30, 200) or Color3.fromRGB(80, 20, 80)
+            TextButton7.BackgroundColor3 = u199 and Color3.fromRGB(30, 160, 30) or Color3.fromRGB(80, 20, 20)
             TextButton7.Text = u199 and 'ON' or 'OFF'
             TextButton7.TextColor3 = Color3.new(1, 1, 1)
             TextButton7.Font = Enum.Font.GothamBold
@@ -3578,7 +3567,7 @@ v301:Button({
 
             MouseButton1Click6:Connect(function()
                 u199 = not u199
-                u723.BackgroundColor3 = u199 and Color3.fromRGB(120, 30, 200) or Color3.fromRGB(80, 20, 80)
+                u723.BackgroundColor3 = u199 and Color3.fromRGB(30, 160, 30) or Color3.fromRGB(80, 20, 20)
                 u723.Text = u199 and 'ON' or 'OFF'
 
                 u210()
@@ -3624,7 +3613,7 @@ v301:Button({
                 local TextButton8 = Instance.new('TextButton', ScrollingFrame)
 
                 TextButton8.Size = UDim2.new(0, 128, 0, 110)
-                TextButton8.BackgroundColor3 = v731 and Color3.fromRGB(55, 15, 55) or Color3.fromRGB(20, 20, 20)
+                TextButton8.BackgroundColor3 = v731 and Color3.fromRGB(55, 15, 15) or Color3.fromRGB(20, 20, 20)
                 TextButton8.Text = ''
                 TextButton8.AutoButtonColor = false
                 TextButton8.LayoutOrder = i
@@ -3632,7 +3621,7 @@ v301:Button({
 
                 local UIStroke4 = Instance.new('UIStroke', TextButton8)
 
-                UIStroke4.Color = v731 and Color3.fromRGB(138, 43, 226) or Color3.fromRGB(50, 50, 50)
+                UIStroke4.Color = v731 and Color3.fromRGB(220, 38, 38) or Color3.fromRGB(50, 50, 50)
                 UIStroke4.Thickness = v731 and 1.8 or 1.2
 
                 local ImageLabel = Instance.new('ImageLabel', TextButton8)
@@ -3649,7 +3638,7 @@ v301:Button({
                 TextLabel8.Position = UDim2.new(0, 3, 1, -30)
                 TextLabel8.BackgroundTransparency = 1
                 TextLabel8.Text = v.name .. (v731 and ' \u{2713}' or '')
-                TextLabel8.TextColor3 = v731 and Color3.fromRGB(180, 80, 255) or Color3.fromRGB(200, 200, 200)
+                TextLabel8.TextColor3 = v731 and Color3.fromRGB(255, 80, 80) or Color3.fromRGB(200, 200, 200)
                 TextLabel8.Font = Enum.Font.GothamBold
                 TextLabel8.TextSize = 11
                 TextLabel8.TextWrapped = true
